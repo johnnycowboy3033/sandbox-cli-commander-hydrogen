@@ -15,3 +15,5 @@ if(!program.args[0] || !options.separator) {
 }else{
     console.log(program.args[0].split(options.separator, limit));
 }
+
+// $ node split.js -s / --first a/b/c
