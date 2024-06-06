@@ -1,0 +1,14 @@
+{
+  "logging":[
+    {
+      "id": "1",
+      "codeToSearchFor": "if(studentsNames.length === studentsGrades.length){",
+      "codeToInsert": "console.log(`Number of Students: ${studentsNames.length}`);"
+    },
+    {
+      "id": "2",
+      "codeToSearchFor": "for(let i = 0; i < studentsGrades.length; i++){",
+      "codeToInsert": "console.log(`${studentsNames[i]} grades is ${studentsGrades[i]}`);"
+    }
+  ]
+}
